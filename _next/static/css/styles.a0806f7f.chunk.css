@@ -1,0 +1,13 @@
+.footer {
+  color: #fafafa;
+  text-align: right;
+  background-image: url("/static/rokkit.ts-background.jpg");
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */ }
+  .footer h4 {
+    margin: 0 5px 0 0; }
+
