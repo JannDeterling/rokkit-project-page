@@ -1,0 +1,75 @@
+@import "../app-colors";
+
+.header {
+  color: $card-font-color;
+  height: 80px;
+  width: 100%;
+  background: $card-background-color;
+}
+
+.header-layout {
+  display: inline-grid;
+  width: inherit;
+  height: inherit;
+  grid-template-columns: 20% 70% 10%;
+  grid-template-areas: "logo navigation social-media" "mobile-menu mobile-menu mobile-menu";
+}
+
+.header-logo {
+  grid-area: logo;
+  margin: auto 20px;
+}
+
+.header-navigation {
+  grid-area: navigation;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-social-media {
+  grid-area: social-media;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header-navigation-mobile {
+  display: none;
+}
+
+.header-navigation-mobile-content {
+  display: none;
+  grid-area: mobile-menu;
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: max-content;
+  position: relative;
+  z-index: 2;
+  background-color: $card-background-color;
+
+}
+
+@media screen and (max-width: $break-to-small-design) {
+  .header-navigation {
+    display: none;
+  }
+
+  .header-social-media {
+    display: none;
+  }
+
+  .header-navigation-mobile {
+    display: flex;
+    margin: auto 0;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .header-navigation-mobile-content {
+    display: block;
+  }
+}

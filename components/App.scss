@@ -1,0 +1,67 @@
+@import "app-colors";
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+
+/* TODO Think about this */
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+p, li {
+  color: $card-font-color;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.text-color-pink {
+  color: $card-accent-color;
+}
+
+.syntax-hl {
+  margin: auto;
+  width: max-content;
+  border-radius: 5px;
+}
+
+
+.attribute-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.attribute-text {
+  margin: 0 1em 0 1em;
+  height: fit-content;
+  width: fit-content;
+  max-width: 25%;
+}
+
+.content-text {
+  width: 35%;
+  min-width: 325px;
+  height: fit-content;
+  margin: auto;
+}
+
+
+@media screen and (max-width: $break-to-small-design) {
+  .attribute-box {
+    flex-direction: column;
+  }
+
+  .attribute-text {
+    max-width: none;
+  }
+}
+
