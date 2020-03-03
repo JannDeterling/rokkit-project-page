@@ -1,0 +1,24 @@
+@import "../app-colors.scss";
+
+.card-box {
+  margin:  1.5rem;
+  width: 30rem;
+  height: fit-content;
+  min-height: 20rem;
+  border: 1px solid $card-background-color;
+  border-radius: 6px;
+  box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, 0.13);
+  padding: 0.3rem 0.5rem;
+}
+
+.card-heading {
+  width: 100%;
+  h1 {
+    color: $card-accent-color;
+    font-size: 1.1rem;
+  }
+}
+
+.card-content {
+  width: 100%;
+}

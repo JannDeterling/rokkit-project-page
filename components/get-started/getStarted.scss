@@ -1,0 +1,20 @@
+@import "../app-colors.scss";
+
+.description-container {
+  display: flex;
+}
+
+.active-button {
+  color: white;
+  background: $card-accent-color;
+  border-color: darken( $card-accent-color, 5% );
+}
+
+.highlight-text {
+  color: $card-accent-color;
+}
+
+.code-img {
+  max-width: 35rem;
+  max-height: none;
+}

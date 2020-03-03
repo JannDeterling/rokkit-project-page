@@ -1,6 +1,5 @@
 @import "../../app-colors";
 
-
 .rokkit-header-logo {
   display: flex;
   flex-direction: row;
@@ -9,12 +8,11 @@
   a {
     color: inherit;
     text-decoration: none;
-
   }
 }
 
 .rokkit-logo {
-  margin: auto 0;
+  margin: 0.1rem 0 0;
   color: inherit;
   height: 60px;
 }

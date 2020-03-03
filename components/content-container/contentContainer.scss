@@ -1,10 +1,6 @@
 @import "../app-colors";
 
 .content-container {
-  padding-top: 2em;
-  background: $card-background-color;
-  color: $card-font-color;
-  min-height: 300px;
-  height: fit-content;
-  width: 100%;
+  box-sizing: border-box;
+  margin: 2rem 5rem;
 }

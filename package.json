@@ -6,12 +6,11 @@
     "start": "next start"
   },
   "dependencies": {
-    "@svgr/webpack": "^4.3.0",
+    "@svgr/webpack": "^4.3.3",
     "@zeit/next-sass": "^1.0.1",
     "next": "8.1.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-syntax-highlighter": "^10.3.0"
+    "react-dom": "16.8.6"
   }
 }
