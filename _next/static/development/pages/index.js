@@ -139,20 +139,26 @@ var App = function App() {
       lineNumber: 80
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "logo",
     src: "../static/rokkit-ts-logo.svg",
     alt: "Rokkit.ts Logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 82
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "slogan",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 88
     },
     __self: this
   }, "The Microservice Framework for Node.js with TypeScript"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -160,20 +166,20 @@ var App = function App() {
     href: "#getting-started",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 91
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: "get-started",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 92
     },
     __self: this
   }, "GET STARTED")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 94
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_section_Section__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -181,31 +187,31 @@ var App = function App() {
     imageLeft: "../static/images/building_blocks.svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 95
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 99
     },
     __self: this
   }, "Rokkit is based on a modular component system to be versatile and adaptable for most needs. The framework is diided into dirrent functionallities."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102
+      lineNumber: 104
     },
     __self: this
   }, "Currently we offer two modules for the users needs. The first module is the Core-Framework. This module offers you depency injection out of the box and helps you to compose multiple Rokkit modules. The second available module is a Web-Module that offers you the abaility to spin up your own webserver and create an easy to use REST APIs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 111
     },
     __self: this
   }, "There are more modules planned. The next module will be a messaging module include a Apache Kafka Client. So that the microservice is able to receive or send events to Kafka.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 117
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_section_Section__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -213,19 +219,19 @@ var App = function App() {
     imageRight: "../static/images/fitting_pieces.svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 118
     },
     __self: this
   }, "Rokkit.ts comes with its own depency inejction module. Dependency injection is a simple method where the depencies of a class / component are injected through a function or by the constructor. Rokkit.ts is currently able scan every user project class and inject it into an other through the constructor. Rokkit.ts only offers constructor injection to only have one single point where the inejction happens. Moreover dependency injection helps unit testing any class / component, because instead of the actaul implementation a stub, mock or spy could be provided. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128
+      lineNumber: 130
     },
     __self: this
   }), "Rokkit.ts enables the developer to provide its own injector definitions and configure them as needed or simple use the automaticly created definitions by Rokkit.ts."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 135
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_section_Section__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -233,31 +239,31 @@ var App = function App() {
     imageLeft: "../static/images/breaking_barries.svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134
+      lineNumber: 136
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138
+      lineNumber: 140
     },
     __self: this
   }, "Rokkit.ts tries to provide a simple to use configuration for each of its packages."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142
+      lineNumber: 144
     },
     __self: this
   }, "In order to be flexible a configuration needs to be precise and offer engouhg options. A big downside of such an configuration is that it can be frustating to configure everything up front."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147
+      lineNumber: 149
     },
     __self: this
   }, "To be able to run your service as fast as possible Rokkit.ts comes with an opinionated configuration for every package. The developer can just overwrite the configuration and adapt it to their needs.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153
+      lineNumber: 155
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_section_Section__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -265,37 +271,37 @@ var App = function App() {
     imageRight: "../static/images/typings.svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154
+      lineNumber: 156
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158
+      lineNumber: 160
     },
     __self: this
   }, "Rokkit.ts is build in TypeScript and for TypeScript.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160
+      lineNumber: 162
     },
     __self: this
   }), "TypeScript provides typesafety and lets developers use modern JavaScript features without the need of polyfills."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164
+      lineNumber: 166
     },
     __self: this
   }, "For backend systems typesafety is highly important. Furthermore TypeScript helps to document the source code with its type defenitions. Currently Rokkit.ts focuses only on the development for TypeScript.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 169
+      lineNumber: 171
     },
     __self: this
   }), "There are some ideas to support native JavaScript later in the development process.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 174
+      lineNumber: 176
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_section_Section__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -304,69 +310,69 @@ var App = function App() {
     readMore: apiDesign,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175
+      lineNumber: 177
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180
+      lineNumber: 182
     },
     __self: this
   }, "Rokkit.ts tries to optimize your development experience by providing easy to use APIs. For us an easy to use API includes four key aspects:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185
+      lineNumber: 187
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 186
+      lineNumber: 188
     },
     __self: this
   }, "Comprehensive functionallity"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 187
+      lineNumber: 189
     },
     __self: this
   }, "Self explaining method names"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 188
+      lineNumber: 190
     },
     __self: this
   }, "Reasonable and lightweight configuration"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 189
+      lineNumber: 191
     },
     __self: this
   }, "Understandable and short documentation"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     id: "getting-started",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 192
+      lineNumber: 194
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_section_Section__WEBPACK_IMPORTED_MODULE_4__["default"], {
     heading: "Getting started",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 193
+      lineNumber: 195
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_get_started_GetStarted__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 195
+      lineNumber: 197
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 197
+      lineNumber: 199
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_section_Section__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -374,44 +380,44 @@ var App = function App() {
     imageLeft: "../static/images/contribute.svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 198
+      lineNumber: 200
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 202
+      lineNumber: 204
     },
     __self: this
   }, "If you want to contribute to the project, check out our", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://github.com/rokkit-ts",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 204
+      lineNumber: 206
     },
     __self: this
   }, "GitHub"), " repositories. You can either create, discuss issues or fix them by sending us a pull request. Please always respect everyone, there is no room for discrimination nor insulting of anybody.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 208
+      lineNumber: 210
     },
     __self: this
   }), "Always rember the prime directive:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 211
+      lineNumber: 213
     },
     __self: this
   }, "\u201C", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 213
+      lineNumber: 215
     },
     __self: this
   }, "Regardless of what we discover, we understand and truly believe that everyone did the best job they could, given what they knew at the time, their skills and abilities, the resources available, and the situation at hand."), "\u201D"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_footer_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223
+      lineNumber: 225
     },
     __self: this
   }));
@@ -620,204 +626,240 @@ var GetStarted = function GetStarted(props) {
       lineNumber: 28
     },
     __self: this
-  }), "To use Rokkit.ts make sure you have typescript installed and that you created a simple \"tsconfig.json\" Now you can just run the install commands on the right.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    className: "code-img",
-    src: "../../static/images/install.svg",
+  }), "To use Rokkit.ts make sure you have typescript installed and that you created a simple \"tsconfig.json\" Now you can just run the install commands on the right.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
     },
     __self: this
-  })) : null;
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    className: "code-img",
+    src: "../../static/images/install.svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }))) : null;
   var createApp = state && state === create ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "description-container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "description",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
-    className: "highlight-text",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43
     },
     __self: this
-  }, "Base class"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "description",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
+    className: "highlight-text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, "Base class"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
   }, "Now that you have installed the needed modules of Rokkit.ts let's starting developing. We will build a simple REST API that returns hello world.", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 50
     },
     __self: this
-  }), "We will start with our base class. Rokkit.ts needs an entry point to your project. As you can see on the right. The base class is quite empty and just annotated with the \"RokkitRunner\" decorator. This decorator tells Rokkit.ts to run the start procedure. You have to provide the root path of your source directory to the decorator. We need this path to find your further classes. You don't even need a constructor in this class, we are planning to provide more functionality for the base class in the future. For now it is just an entry point to the project.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    className: "code-img",
-    src: "../../static/images/init-class.svg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "description-container",
+  }), "We will start with our base class. Rokkit.ts needs an entry point to your project. As you can see on the right. The base class is quite empty and just annotated with the \"RokkitRunner\" decorator. This decorator tells Rokkit.ts to run the start procedure. You have to provide the root path of your source directory to the decorator. We need this path to find your further classes. You don't even need a constructor in this class, we are planning to provide more functionality for the base class in the future. For now it is just an entry point to the project.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 62
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "description",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    className: "code-img",
+    src: "../../static/images/init-class.svg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 63
     },
     __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "description-container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "description",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
     className: "highlight-text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 71
     },
     __self: this
   }, "Building a controller"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 72
     },
     __self: this
   }, "So we created our base class let's create a controller to send our hello world message. On the right you can see a new class for our controller. It is marked with the controller decorator. the controller decorator expects an uri base path. We use \"/sample\" here. This means that our controller will be available on the following URI: \"http://host:port/sample\".", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 79
     },
     __self: this
-  }), "Within our controller we now want to add some functionality. Therefore we can add a method that will respond to a request on a mapped path. In our code on the right we have the method \"greetWorld\". Because of its decorator it will respond to every GET request against our resource. You can also fill a request path into the decorator to specify the whole path. The result of the method will be used as the result of the request.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    className: "code-img",
-    src: "../../static/images/simple-controller.svg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "description-container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 87
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "description",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 88
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
-    className: "highlight-text",
+  }), "Within our controller we now want to add some functionality. Therefore we can add a method that will respond to a request on a mapped path. In our code on the right we have the method \"greetWorld\". Because of its decorator it will respond to every GET request against our resource. You can also fill a request path into the decorator to specify the whole path. The result of the method will be used as the result of the request.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 89
     },
     __self: this
-  }, "Using dependency injection"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    className: "code-img",
+    src: "../../static/images/simple-controller.svg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 90
     },
     __self: this
-  }, "We managed to create a basic controller, but how about extending this one by using the Rokkit.ts dependency injection. As you can see we added a constructor to our class. With two arguments. The first argument is a \"GreetingGenerator\". It's just another user class which hold some kind of logic. The second argument is a basic string. In order to use the dependency injection for native objects like strings, numbers, booleans, you have to use the annotation \"Inject\" and provide the value that will be injected. In our case \"Hello\" will be injected we the class is created. You can also use this decorator for user classes but there is a easier way. Because the \"GreetingGenerator\" is a registered class of the project. Rokkit.ts is able to automatically inject an instance. So you just have to declare it a the constructor. There is only one thing you need to do, you need to annotate the user comoponent that will be inejcted with one of the following decorators \"Component\", \"Controller\", \"Service\". This tells Rokkit.ts that this class is important for the dependency injection. Classes without that decorators won't be recognized.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    className: "code-img",
-    src: "../../static/images/controller.svg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 111
-    },
-    __self: this
-  }))) : null;
-  var deployApp = state && state === deploy ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "description-container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 96
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "description",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 97
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
     className: "highlight-text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98
+    },
+    __self: this
+  }, "Using dependency injection"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }, "We managed to create a basic controller, but how about extending this one by using the Rokkit.ts dependency injection. As you can see we added a constructor to our class. With two arguments. The first argument is a \"GreetingGenerator\". It's just another user class which hold some kind of logic. The second argument is a basic string. In order to use the dependency injection for native objects like strings, numbers, booleans, you have to use the annotation \"Inject\" and provide the value that will be injected. In our case \"Hello\" will be injected we the class is created. You can also use this decorator for user classes but there is a easier way. Because the \"GreetingGenerator\" is a registered class of the project. Rokkit.ts is able to automatically inject an instance. So you just have to declare it a the constructor. There is only one thing you need to do, you need to annotate the user comoponent that will be inejcted with one of the following decorators \"Component\", \"Controller\", \"Service\". This tells Rokkit.ts that this class is important for the dependency injection. Classes without that decorators won't be recognized.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 120
     },
     __self: this
-  }, "Running an app in development mode"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    className: "code-img",
+    src: "../../static/images/controller.svg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 121
     },
     __self: this
-  }, "After completing your first controller let's start your application and test it. In order to run Rokkit.ts in development mode you need to install ts-node. After installing it, just use it to run your entry point class.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    className: "code-img",
-    src: "../../static/images/dev.svg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 128
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  })))) : null;
+  var deployApp = state && state === deploy ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "description-container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130
+      lineNumber: 132
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "description",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131
+      lineNumber: 133
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
     className: "highlight-text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132
+      lineNumber: 134
     },
     __self: this
-  }, "Running an app in production mode"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, "Running an app in development mode"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 137
     },
     __self: this
-  }, "When you finished your development and want to run the application in production mode, you need to build it. There are two steps to build the application currentlty: 1. Run the application with ts-node. This will generate an directory with an declaration file. This file is needed for Rokkit.ts in production. This file provides important information for the dependency injection and speeds up the whole starting process. In development mode the file will be recreate every time. After running the app in development mode use the TypeScript compiler to build the project. At this time you need to use \"build\" as the outDir in the \"tsconfig.json\". After build your application just run the entrypoint class with Node.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+  }, "After completing your first controller let's start your application and test it. In order to run Rokkit.ts in development mode you need to install ts-node. After installing it, just use it to run your entry point class.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 144
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
     className: "code-img",
-    src: "../../static/images/prod.svg",
+    src: "../../static/images/dev.svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 145
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "description-container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 148
     },
     __self: this
-  }))) : null;
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "description",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 149
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
+    className: "highlight-text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 150
+    },
+    __self: this
+  }, "Running an app in production mode"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 153
+    },
+    __self: this
+  }, "When you finished your development and want to run the application in production mode, you need to build it. There are two steps to build the application currentlty: 1. Run the application with ts-node. This will generate an directory with an declaration file. This file is needed for Rokkit.ts in production. This file provides important information for the dependency injection and speeds up the whole starting process. In development mode the file will be recreate every time. After running the app in development mode use the TypeScript compiler to build the project. At this time you need to use \"build\" as the outDir in the \"tsconfig.json\". After build your application just run the entrypoint class with Node.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 168
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    className: "code-img",
+    src: "../../static/images/prod.svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 169
+    },
+    __self: this
+  })))) : null;
 
   var setActive = function setActive(action) {
     setState(action);
@@ -826,37 +868,37 @@ var GetStarted = function GetStarted(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158
+      lineNumber: 180
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-    className: state === install ? 'active-button' : '',
+    className: state === install ? "active-button" : "",
     onClick: function onClick() {
       return setActive(install);
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159
+      lineNumber: 181
     },
     __self: this
   }, "Install Rokkit.ts"), installRokkit, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-    className: state === create ? 'active-button' : '',
+    className: state === create ? "active-button" : "",
     onClick: function onClick() {
       return setActive(create);
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161
+      lineNumber: 188
     },
     __self: this
   }, "Creating your first app"), createApp, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-    className: state === deploy ? 'active-button' : '',
+    className: state === deploy ? "active-button" : "",
     onClick: function onClick() {
       return setActive(deploy);
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163
+      lineNumber: 195
     },
     __self: this
   }, "Deploying the application"), deployApp);
@@ -1146,7 +1188,7 @@ var Section = function Section(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 10
     },
     __self: this
   }, showReadMore ? "Show less" : "Show more");
@@ -1154,47 +1196,61 @@ var Section = function Section(_ref) {
     className: "section",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
     className: "section-heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 20
     },
     __self: this
   }, heading), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "section-content",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, imageLeft ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    className: "section-img",
-    src: imageLeft,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }) : null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "section-children",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }, children, readMore ? readMoreButton : null), imageRight ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+  }, imageLeft ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "section-img-container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
     className: "section-img",
-    src: imageRight,
+    src: imageLeft,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
-  }) : null), readMore ? readMoreComponent : null);
+  })) : null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "section-children",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, children, readMore ? readMoreButton : null), imageRight ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "section-img-container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    className: "section-img",
+    src: imageRight,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  })) : null), readMore ? readMoreComponent : null);
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Section);
@@ -11696,7 +11752,7 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!**************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjanndeterling%2FDocuments%2Fprojects%2Frokkit.ts%2Fproject-page%2Fpages%2Findex.js ***!
   \**************************************************************************************************************************************************************/
@@ -11719,5 +11775,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
