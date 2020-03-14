@@ -11,7 +11,7 @@ const GetStarted = props => {
     state && state === install ? (
       <div className="description-container">
         <div className="description">
-        <h4 className="highlight-text">Install Rokkit.ts</h4>
+          <h4 className="highlight-text">Install Rokkit.ts</h4>
           <p>
             Before hacking with Rokkit.ts, you need to install its modules.
             Rokkit.ts is splitted into functional modules to reduce size and
@@ -31,7 +31,9 @@ const GetStarted = props => {
             install commands on the right.
           </p>
         </div>
-        <img className="code-img" src="../../static/images/install.svg" />
+        <div>
+          <img className="code-img" src="../../static/images/install.svg" />
+        </div>
       </div>
     ) : null;
 
@@ -57,7 +59,12 @@ const GetStarted = props => {
               now it is just an entry point to the project.
             </p>
           </div>
-          <img className="code-img" src="../../static/images/init-class.svg" />
+          <div>
+            <img
+              className="code-img"
+              src="../../static/images/init-class.svg"
+            />
+          </div>
         </div>
         <div className="description-container">
           <div className="description">
@@ -79,10 +86,12 @@ const GetStarted = props => {
               method will be used as the result of the request.
             </p>
           </div>
-          <img
-            className="code-img"
-            src="../../static/images/simple-controller.svg"
-          />
+          <div>
+            <img
+              className="code-img"
+              src="../../static/images/simple-controller.svg"
+            />
+          </div>
         </div>
         <div className="description-container">
           <div className="description">
@@ -108,7 +117,12 @@ const GetStarted = props => {
               without that decorators won't be recognized.
             </p>
           </div>
-          <img className="code-img" src="../../static/images/controller.svg" />
+          <div>
+            <img
+              className="code-img"
+              src="../../static/images/controller.svg"
+            />
+          </div>
         </div>
       </>
     ) : null;
@@ -117,7 +131,9 @@ const GetStarted = props => {
       <>
         <div className="description-container">
           <div className="description">
-            <h4 className="highlight-text">Running an app in development mode</h4>
+            <h4 className="highlight-text">
+              Running an app in development mode
+            </h4>
             <p>
               After completing your first controller let's start your
               application and test it. In order to run Rokkit.ts in development
@@ -125,11 +141,15 @@ const GetStarted = props => {
               to run your entry point class.
             </p>
           </div>
-          <img className="code-img" src="../../static/images/dev.svg" />
+          <div>
+            <img className="code-img" src="../../static/images/dev.svg" />
+          </div>
         </div>
         <div className="description-container">
           <div className="description">
-            <h4 className="highlight-text">Running an app in production mode</h4>
+            <h4 className="highlight-text">
+              Running an app in production mode
+            </h4>
             <p>
               When you finished your development and want to run the application
               in production mode, you need to build it. There are two steps to
@@ -145,7 +165,9 @@ const GetStarted = props => {
               Node.
             </p>
           </div>
-          <img className="code-img" src="../../static/images/prod.svg" />
+          <div>
+            <img className="code-img" src="../../static/images/prod.svg" />
+          </div>
         </div>
       </>
     ) : null;
@@ -156,11 +178,24 @@ const GetStarted = props => {
 
   return (
     <div>
-      <button className={state===install? 'active-button':''} onClick={() => setActive(install)}>Install Rokkit.ts</button>
+      <button
+        className={state === install ? "active-button" : ""}
+        onClick={() => setActive(install)}
+      >
+        Install Rokkit.ts
+      </button>
       {installRokkit}
-      <button className={state===create? 'active-button':''} onClick={() => setActive(create)}>Creating your first app</button>
+      <button
+        className={state === create ? "active-button" : ""}
+        onClick={() => setActive(create)}
+      >
+        Creating your first app
+      </button>
       {createApp}
-      <button className={state===deploy? 'active-button':''} onClick={() => setActive(deploy)}>
+      <button
+        className={state === deploy ? "active-button" : ""}
+        onClick={() => setActive(deploy)}
+      >
         Deploying the application
       </button>
       {deployApp}

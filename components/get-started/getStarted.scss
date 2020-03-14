@@ -1,4 +1,4 @@
-@import "../app-colors.scss";
+@import "../app-variables.scss";
 
 .description-container {
   display: flex;
@@ -7,7 +7,7 @@
 .active-button {
   color: white;
   background: $card-accent-color;
-  border-color: darken( $card-accent-color, 5% );
+  border-color: darken($card-accent-color, 5%);
 }
 
 .highlight-text {
@@ -16,5 +16,16 @@
 
 .code-img {
   max-width: 35rem;
-  max-height: none;
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+  .description-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: $breakpoint-smartphone) {
+  .code-img {
+    max-width: 18rem;
+  }
 }

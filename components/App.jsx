@@ -78,11 +78,13 @@ const App = () => {
     <div className="site">
       <Header />
       <ContentContainer>
-        <img
-          className="logo"
-          src="../static/rokkit-ts-logo.svg"
-          alt="Rokkit.ts Logo"
-        />
+        <div>
+          <img
+            className="logo"
+            src="../static/rokkit-ts-logo.svg"
+            alt="Rokkit.ts Logo"
+          />
+        </div>
         <h1 className="slogan">
           The Microservice Framework for Node.js with TypeScript
         </h1>

@@ -1,5 +1,4 @@
-@import "../app-colors";
-
+@import "../app-variables";
 
 .background {
   display: flex;
@@ -38,7 +37,6 @@
     }
   }
 }
-
 
 .separator-up-right {
   border-right: 100vw solid transparent;

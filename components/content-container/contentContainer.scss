@@ -1,6 +1,12 @@
-@import "../app-colors";
+@import "../app-variables";
 
 .content-container {
   box-sizing: border-box;
   margin: 2rem 5rem;
+}
+
+@media screen and (max-width: $breakpoint-small-laptop) {
+  .content-container {
+    margin: 1rem 1rem;
+  }
 }
