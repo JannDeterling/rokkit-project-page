@@ -40,3 +40,9 @@
   flex-direction: row;
   justify-content: space-around;
 }
+
+@media screen and (max-width: $breakpoint-smartphone) {
+  .header-social-media {
+    margin-right: 0.5rem;
+  }
+}
