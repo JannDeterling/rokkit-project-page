@@ -9,32 +9,54 @@ const GetStarted = props => {
 
   const installRokkit =
     state && state === install ? (
-      <div className="description-container">
-        <div className="description">
-          <h4 className="highlight-text">Install Rokkit.ts</h4>
-          <p>
-            Before hacking with Rokkit.ts, you need to install its modules.
-            Rokkit.ts is splitted into functional modules to reduce size and
-            seperate concerns. Depending on the application you want to build
-            you can install different modules. The major module is the
-            "Rokkit.ts core". The core helps you starting and preconfiguring
-            other modules. Moreover this module is capable of the framework's
-            dependency injection.
-            <br />
-            Currentlty there is only one further module the web module. Its
-            purpose is to build restful APIs or to query other services. It
-            comes with a buildin web-server (restify) and provides you the
-            ability to easily create controllers. We will discover this
-            functionallity a bit later. <br />
-            To use Rokkit.ts make sure you have typescript installed and that
-            you created a simple "tsconfig.json" Now you can just run the
-            install commands on the right.
-          </p>
+      <>
+        <div className="description-container">
+          <div className="description">
+            <h4 className="highlight-text">Install Rokkit.ts</h4>
+            <p>
+              Before hacking with Rokkit.ts, you need to install its modules.
+              Rokkit.ts is splitted into functional modules to reduce size and
+              seperate concerns. Depending on the application you want to build
+              you can install different modules. The major module is the
+              "Rokkit.ts core". The core helps you starting and preconfiguring
+              other modules. Moreover this module is capable of the framework's
+              dependency injection.
+              <br />
+              Currentlty there is only one further module the web module. Its
+              purpose is to build restful APIs or to query other services. It
+              comes with a buildin web-server (restify) and provides you the
+              ability to easily create controllers. We will discover this
+              functionallity a bit later. <br />
+              To use Rokkit.ts make sure you have typescript installed and that
+              you created a simple "tsconfig.json" Now you can just run the
+              install commands on the right.
+            </p>
+          </div>
+          <div>
+            <img className="code-img" src="../../static/images/install.svg" />
+          </div>
         </div>
-        <div>
-          <img className="code-img" src="../../static/images/install.svg" />
+        <div className="description-container">
+          <div className="description">
+            <h4 className="highlight-text">Use the Rokkit.ts CLI</h4>
+            <p>
+              Beside creating your project from scratch you can also use the
+              Rokkit.ts CLI. The cli currently supports three commands.
+              <ul>
+                <li>Init -- initialize a new project</li>
+                <li>Build -- build the application</li>
+                <li>Run -- run the application</li>
+              </ul>
+              The cli comes with our core package and can easily be used. We
+              recommend it to create your first project. Just use the same
+              command as provided on the right side.
+            </p>
+          </div>
+          <div>
+            <img className="code-img" src="../../static/images/cli.svg" />
+          </div>
         </div>
-      </div>
+      </>
     ) : null;
 
   const createApp =
