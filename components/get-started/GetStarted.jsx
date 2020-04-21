@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./getStarted.scss";
 
-const GetStarted = props => {
+const GetStarted = (props) => {
   const install = "install";
   const create = "create";
   const deploy = "deploy";
@@ -70,21 +70,21 @@ const GetStarted = props => {
               starting developing. We will build a simple REST API that returns
               hello world.
               <br />
-              We will start with our base class. Rokkit.ts needs an entry point
-              to your project. As you can see on the right. The base class is
-              quite empty and just annotated with the "RokkitRunner" decorator.
-              This decorator tells Rokkit.ts to run the start procedure. You
-              have to provide the root path of your source directory to the
-              decorator. We need this path to find your further classes. You
-              don't even need a constructor in this class, we are planning to
-              provide more functionality for the base class in the future. For
-              now it is just an entry point to the project.
+              We will start with our entrypoint class. Rokkit.ts needs an entry
+              point to your project. As you can see on the right. The base class
+              is used to configure Rokkit.ts and its modules. The API allows you
+              to specify your used Rokkit modules and configure them accordingly
+              to your needs. In order to run the whole framework you need to
+              call the "run" method at the end of the configuration chain.
+              Beside the run command just annotated the class with our
+              "RokkitRunner" decorator. This decorator tells Rokkit.ts to create
+              an instance of this class and the start procedure.
             </p>
           </div>
           <div>
             <img
               className="code-img"
-              src="../../static/images/init-class.svg"
+              src="../../static/images/entrypoint.svg"
             />
           </div>
         </div>
@@ -194,7 +194,7 @@ const GetStarted = props => {
       </>
     ) : null;
 
-  const setActive = action => {
+  const setActive = (action) => {
     setState(action);
   };
 
